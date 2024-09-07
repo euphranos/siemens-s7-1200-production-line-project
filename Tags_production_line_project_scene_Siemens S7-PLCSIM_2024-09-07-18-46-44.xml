@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tagtable name="production_line_project_scene">
+  <!-- exported by FACTORY I/O version 2.4.3 -->
+  <Tag type="Bool" addr="%I0.0">Start All Factory</Tag>
+  <Tag type="Bool" addr="%I0.1">Stop All Factory</Tag>
+  <Tag type="Bool" addr="%I0.2">Emergency Factory</Tag>
+  <Tag type="Bool" addr="%I0.3">Blue Pusher Back Limit</Tag>
+  <Tag type="Bool" addr="%I0.4">Blue Pusher Front Limit</Tag>
+  <Tag type="Bool" addr="%I0.5">Green Pusher Front Limit</Tag>
+  <Tag type="Bool" addr="%I0.6">Green Pusher Back Limit</Tag>
+  <Tag type="Bool" addr="%I0.7">Metal Pusher Back Limit</Tag>
+  <Tag type="Bool" addr="%I1.0">Metal Pusher Front Limit</Tag>
+  <Tag type="Bool" addr="%I1.1">Blue Vision Sensor</Tag>
+  <Tag type="Bool" addr="%I1.2">Green Vision Sensor</Tag>
+  <Tag type="Bool" addr="%I1.3">Metal Vision Sensor</Tag>
+  <Tag type="Bool" addr="%I1.4">Blue Machine is Busy</Tag>
+  <Tag type="Bool" addr="%I1.5">Green Machine is Busy</Tag>
+  <Tag type="Bool" addr="%I1.6">Metal Machine is Busy</Tag>
+  <Tag type="Bool" addr="%I1.7">Blue Lid at Place</Tag>
+  <Tag type="Bool" addr="%I2.0">Blue base at place</Tag>
+  <Tag type="Bool" addr="%I2.1">Blue Bases Clamped</Tag>
+  <Tag type="Bool" addr="%I2.2">Blue Lid Clamped</Tag>
+  <Tag type="Bool" addr="%I2.3">Blue item detected</Tag>
+  <Tag type="Bool" addr="%I2.4">Green Lid at Place</Tag>
+  <Tag type="Bool" addr="%I2.5">Green Base at Place</Tag>
+  <Tag type="Bool" addr="%I2.6">Green Base Clamped</Tag>
+  <Tag type="Bool" addr="%I2.7">Green Item Detected</Tag>
+  <Tag type="Bool" addr="%I3.0">Green Lid Clamped</Tag>
+  <Tag type="Bool" addr="%I3.1">Metal Lid at Place</Tag>
+  <Tag type="Bool" addr="%I3.2">Metal Base at Place</Tag>
+  <Tag type="Bool" addr="%I3.3">Metal Base Clamped</Tag>
+  <Tag type="Bool" addr="%I3.4">Metal Lid Clamped</Tag>
+  <Tag type="Bool" addr="%I3.5">Metal Item Detected</Tag>
+  <Tag type="Bool" addr="%I3.6">Blue Pallet Base at Place</Tag>
+  <Tag type="Bool" addr="%I3.7">Blue Pallet Lid at Place</Tag>
+  <Tag type="Bool" addr="%I4.0">Blue Pallet Item Detected</Tag>
+  <Tag type="Bool" addr="%I4.1">Blue Pallet Lid Clamped</Tag>
+  <Tag type="Bool" addr="%I4.2">Green Pallet Base at Place</Tag>
+  <Tag type="Bool" addr="%I4.3">Green Pallet Item Detected</Tag>
+  <Tag type="Bool" addr="%I4.4">Green Pallet Lid at Place</Tag>
+  <Tag type="Bool" addr="%I4.5">Green Pallet Lid Clamped</Tag>
+  <Tag type="Bool" addr="%I4.6">Metal Pallet Base at Place</Tag>
+  <Tag type="Bool" addr="%I4.7">Metal Pallet Item Detected</Tag>
+  <Tag type="Bool" addr="%I5.0">Metal Pallet Lid at Place</Tag>
+  <Tag type="Bool" addr="%I5.1">Metal Pallet Lid Clamped</Tag>
+  <Tag type="Bool" addr="%I5.2">Call Blue Elevator</Tag>
+  <Tag type="Bool" addr="%I5.3">Call Green Elevator</Tag>
+  <Tag type="Bool" addr="%I5.4">Call Metal Elevator</Tag>
+  <Tag type="Bool" addr="%I5.5">Blue Turn Table Back Limit</Tag>
+  <Tag type="Bool" addr="%I5.6">Blue Turn Table Front Limit</Tag>
+  <Tag type="Bool" addr="%I5.7">Blue Turn Table Limit 0</Tag>
+  <Tag type="Bool" addr="%I6.0">Blue Turn Table Limit 90</Tag>
+  <Tag type="Bool" addr="%I6.1">Metal Turn Table Back  Limit</Tag>
+  <Tag type="Bool" addr="%I6.3">Metal Turn Table Front Limit</Tag>
+  <Tag type="Bool" addr="%I6.4">Metal Turn Table Limit 0</Tag>
+  <Tag type="Bool" addr="%I6.5">Metal Turn Table Limit 90</Tag>
+  <Tag type="Bool" addr="%I6.6">Crane 1 Moving X</Tag>
+  <Tag type="Bool" addr="%I6.7">Crane 1 Moving Z</Tag>
+  <Tag type="Bool" addr="%I7.0">Crane 1 At Load Sensor</Tag>
+  <Tag type="Bool" addr="%I7.1">Crane 1At Entry Sensor</Tag>
+  <Tag type="Bool" addr="%I7.2">Crane 2 Moving X</Tag>
+  <Tag type="Bool" addr="%I7.3">Crane 2 Moving Z</Tag>
+  <Tag type="Bool" addr="%I7.4">Crane 2 At Load Sensor</Tag>
+  <Tag type="Bool" addr="%I7.6">Crane 3 Moving X</Tag>
+  <Tag type="Bool" addr="%I7.7">Crane 3 Moving Z</Tag>
+  <Tag type="Bool" addr="%I8.0">Crane 3 At Load Sensor</Tag>
+  <Tag type="Bool" addr="%I8.1">Crane 3 At Entry Sensor</Tag>
+  <Tag type="Bool" addr="%Q0.0">Start Light Indicator</Tag>
+  <Tag type="Bool" addr="%Q0.1">Stop Light Indicator</Tag>
+  <Tag type="Bool" addr="%Q0.2">Starter Conveyor 1</Tag>
+  <Tag type="Bool" addr="%Q0.3">Starter Conveyor 2</Tag>
+  <Tag type="Bool" addr="%Q0.4">Starter Conveyor 3</Tag>
+  <Tag type="Bool" addr="%Q0.5">Starter Conveyor 4</Tag>
+  <Tag type="Bool" addr="%Q0.6">Starter Conveyor 5</Tag>
+  <Tag type="Bool" addr="%Q0.7">Blue Entry Conveyor</Tag>
+  <Tag type="Bool" addr="%Q1.0">Green Entry Conveyor</Tag>
+  <Tag type="Bool" addr="%Q1.1">Metal Entry Conveyor</Tag>
+  <Tag type="Bool" addr="%Q1.2">Blue Pusher</Tag>
+  <Tag type="Bool" addr="%Q1.3">Green Pusher</Tag>
+  <Tag type="Bool" addr="%Q1.4">Metal Pusher</Tag>
+  <Tag type="Bool" addr="%Q1.5">Blue Machine Start</Tag>
+  <Tag type="Bool" addr="%Q1.6">Green Machine Start</Tag>
+  <Tag type="Bool" addr="%Q1.7">Metal Machine Start</Tag>
+  <Tag type="Bool" addr="%Q2.0">Blue Product Emitter</Tag>
+  <Tag type="Bool" addr="%Q2.1">Green Product Emitter</Tag>
+  <Tag type="Bool" addr="%Q2.2">Metal Product Emitter</Tag>
+  <Tag type="Bool" addr="%Q2.3">Blue Lids Conveyor</Tag>
+  <Tag type="Bool" addr="%Q2.4">Blue Bases Conveyor</Tag>
+  <Tag type="Bool" addr="%Q2.5">Blue Clamp Lid</Tag>
+  <Tag type="Bool" addr="%Q2.6">Blue Clamp Bases</Tag>
+  <Tag type="Bool" addr="%Q2.7">Blue Move Z</Tag>
+  <Tag type="Bool" addr="%Q3.0">Blue Move X</Tag>
+  <Tag type="Bool" addr="%Q3.1">Blue Grab</Tag>
+  <Tag type="Bool" addr="%Q3.2">Blue pos raise bases</Tag>
+  <Tag type="Bool" addr="%Q3.3">Blue pos raise lids</Tag>
+  <Tag type="Bool" addr="%Q3.4">Green Lid Conveyor</Tag>
+  <Tag type="Bool" addr="%Q3.5">Green Base Conveyor</Tag>
+  <Tag type="Bool" addr="%Q3.6">Green Clamp Lid</Tag>
+  <Tag type="Bool" addr="%Q3.7">Green Clamp Base</Tag>
+  <Tag type="Bool" addr="%Q4.0">Green Move Z</Tag>
+  <Tag type="Bool" addr="%Q4.1">Green Move X</Tag>
+  <Tag type="Bool" addr="%Q4.2">Green Grab</Tag>
+  <Tag type="Bool" addr="%Q4.3">Green pos raise lids</Tag>
+  <Tag type="Bool" addr="%Q4.4">Green pos raise bases</Tag>
+  <Tag type="Bool" addr="%Q4.5">Metal Lids Conveyor</Tag>
+  <Tag type="Bool" addr="%Q4.6">Metal Bases Conveyor</Tag>
+  <Tag type="Bool" addr="%Q4.7">Metal Clamp Lid</Tag>
+  <Tag type="Bool" addr="%Q5.0">Metal Clamp Base</Tag>
+  <Tag type="Bool" addr="%Q5.1">Metal Move Z</Tag>
+  <Tag type="Bool" addr="%Q5.2">Metal Move X</Tag>
+  <Tag type="Bool" addr="%Q5.3">Metal Grab</Tag>
+  <Tag type="Bool" addr="%Q5.4">Metal pos raise base</Tag>
+  <Tag type="Bool" addr="%Q5.5">Metal pos raise lids</Tag>
+  <Tag type="Bool" addr="%Q5.6">Blue Pallet Base Conveyor</Tag>
+  <Tag type="Bool" addr="%Q5.7">Blue Pallet Grab</Tag>
+  <Tag type="Bool" addr="%Q6.0">Blue Pallet Lid Clamp</Tag>
+  <Tag type="Bool" addr="%Q6.1">Blue Pallet Lid Conveyor</Tag>
+  <Tag type="Bool" addr="%Q6.2">Blue Pallet pos raise lid</Tag>
+  <Tag type="Bool" addr="%Q6.3">Blue Pallet Move X</Tag>
+  <Tag type="Bool" addr="%Q6.4">Blue Pallet Move Z</Tag>
+  <Tag type="Bool" addr="%Q6.5">Green Pallet Base Conveyor</Tag>
+  <Tag type="Bool" addr="%Q6.6">Green Pallet Grab</Tag>
+  <Tag type="Bool" addr="%Q6.7">Green Pallet Lid Clamp</Tag>
+  <Tag type="Bool" addr="%Q7.0">Green Pallet Lid Conveyor</Tag>
+  <Tag type="Bool" addr="%Q7.1">Green Pallet Move X</Tag>
+  <Tag type="Bool" addr="%Q7.2">Green Pallet Move Z</Tag>
+  <Tag type="Bool" addr="%Q7.3">Green Pallet pos raise lid</Tag>
+  <Tag type="Bool" addr="%Q7.4">Metal Pallet Base Conveyor</Tag>
+  <Tag type="Bool" addr="%Q7.5">Metal Pallet Grab</Tag>
+  <Tag type="Bool" addr="%Q7.6">Metal Pallet Lid Clamp</Tag>
+  <Tag type="Bool" addr="%Q7.7">Metal Pallet Lid Conveyor</Tag>
+  <Tag type="Bool" addr="%Q8.0">Metal Pallet Move X</Tag>
+  <Tag type="Bool" addr="%Q8.1">Metal Pallet Move Z</Tag>
+  <Tag type="Bool" addr="%Q8.2">Metal Pallet pos raise lid</Tag>
+  <Tag type="Bool" addr="%Q8.3">Blue Elevator Roller </Tag>
+  <Tag type="Bool" addr="%Q8.4">Green Elevator Roller</Tag>
+  <Tag type="Bool" addr="%Q8.5">Metal Elevator Roller</Tag>
+  <Tag type="Bool" addr="%Q8.6">Blue Turn Table Roll +</Tag>
+  <Tag type="Bool" addr="%Q8.7">Blue Turn Table Roll -</Tag>
+  <Tag type="Bool" addr="%Q9.0">Blue Turn Table Turn</Tag>
+  <Tag type="Bool" addr="%Q9.1">Metal Turn Table Roll +</Tag>
+  <Tag type="Bool" addr="%Q9.2">Metal Turn Table Roll -</Tag>
+  <Tag type="Bool" addr="%Q9.3">Metal Turn Table Turn</Tag>
+  <Tag type="Bool" addr="%Q9.4">Crane 1 Left</Tag>
+  <Tag type="Bool" addr="%Q9.5">Crane 1 Lift</Tag>
+  <Tag type="Bool" addr="%Q9.6">Crane 1 Right</Tag>
+  <Tag type="Bool" addr="%Q9.7">Crane 1 Entry Conveyor</Tag>
+  <Tag type="Bool" addr="%Q10.0">Crane 1 Loading Conveyor</Tag>
+  <Tag type="Bool" addr="%Q10.1">Crane 2 Lift</Tag>
+  <Tag type="Bool" addr="%Q10.2">Crane 2 Left</Tag>
+  <Tag type="Bool" addr="%Q10.3">Crane 2 Right</Tag>
+  <Tag type="Bool" addr="%Q10.5">Crane 2 Loading Conveyor</Tag>
+  <Tag type="Bool" addr="%Q10.6">Crane 3 Left</Tag>
+  <Tag type="Bool" addr="%Q10.7">Crane 3 Lift</Tag>
+  <Tag type="Bool" addr="%Q11.0">Crane 3 Right</Tag>
+  <Tag type="Bool" addr="%Q11.1">Crane 3 Entry Conveyor</Tag>
+  <Tag type="Bool" addr="%Q11.2">Crane 3 Loading Conveyor</Tag>
+  <Tag type="Bool" addr="%Q11.3">Green Conveyor 1</Tag>
+  <Tag type="Bool" addr="%Q11.4">Green Conveyor 2</Tag>
+  <Tag type="Real" addr="%QD16">Blue Elevator Set Point</Tag>
+  <Tag type="Real" addr="%QD20">Green Elevator Set Point</Tag>
+  <Tag type="Real" addr="%QD24">Metal Elevator Set Point</Tag>
+  <Tag type="DInt" addr="%QD28">Crane 1 Target Position</Tag>
+  <Tag type="DInt" addr="%QD32">Crane 2 Target Position</Tag>
+  <Tag type="DInt" addr="%QD36">Crane 3 Target Position</Tag>
+</Tagtable>
